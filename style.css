@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.34;
+}
+main {
+  background-color: rgb(242, 244, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+.fb-bio {
+  margin-top: 15px;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  /* padding: 100px 100px; */
+}
+.facebook-logo-img {
+  height: 50px;
+  width: auto;
+}
+.first-box {
+  position: relative;
+  top: -40px;
+  left: 10px;
+}
+.login-box {
+  height: 314px;
+  width: 396px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 0 24px 0;
+}
+.before-create-account {
+  color: #c4c2c2;
+}
+.input {
+  width: 330px;
+  height: 22px;
+  padding: 14px 16px 14px 16px;
+  border-radius: 5px;
+  border: 1px rgb(190, 186, 186) solid;
+  font-size: 18px;
+}
+.login-button {
+  background-color: #0866ff;
+  width: 364px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.forgotten-password {
+  color: #186cff;
+  text-decoration: none;
+}
+.Create-new-account {
+  width: 192px;
+  height: 48px;
+  padding: 0px 16px;
+  border-radius: 5px;
+  background-color: #42b72a;
+  border: none;
+  color: white;
+  font-size: 18px;
+  /* margin-bottom: 30px; */
+  margin-top: 10px;
+}
+.after-login-box {
+  margin-top: 30px;
+  font-size: 15px;
+  padding-left: 25px;
+}
+.after-login-box-bold-text {
+  font-weight: 700;
+}
+.languages {
+  margin-top: 10px;
+
+  gap: 10px;
+}
+.languages a {
+  text-decoration: none;
+  color: #a3aab3;
+}
+footer {
+  height: 138px;
+  width: auto;
+  min-height: 138px;
+
+  margin: 0px auto;
+  margin-bottom: 200px;
+
+  font-size: 13px;
+}
+
+footer div {
+  padding-top: 5px;
+}
+
+.languages {
+  margin-bottom: 10px;
+}
+.languages a {
+  padding-right: 8px;
+}
+.options div a {
+  text-decoration: none;
+  color: #a3aab3;
+}
+.options-line1 a {
+  padding-right: 7px;
+}
+
+.options-line2 a {
+  padding-right: 12px;
+}
+.options-line3 a {
+  padding-right: 7px;
+}
+.copyright {
+  padding: 20px 0 20px 0;
+}
+footer div a:hover {
+  /* border-bottom: gray 1px solid; */
+  text-decoration: underline;
+}
